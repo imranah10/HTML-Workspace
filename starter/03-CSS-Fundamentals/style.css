@@ -19,3 +19,6 @@ h3 {
 p {
   font-size: 22px;
 }
+#author {
+  font-style: italic;
+}
