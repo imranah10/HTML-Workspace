@@ -45,6 +45,21 @@ h2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 80px;
+  
+  
+}
+.grid-3-cols .icon div svg,.grid-3-cols .icon div p{
+  /* background-color: red; */
+  display: inline-block;
+  
+  
+}
+.grid-3-cols .icon div svg{
+  height: 25px;
+  
+}
+.grid-3-cols .icon div p{
+padding-bottom: 20px;
 }
 
 .btn:link,
@@ -124,6 +139,7 @@ img {
 .features-text {
   font-size: 18px;
   line-height: 1.7;
+  text-align:center;
 }
 
 /* TESTIMONIAL */
